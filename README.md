@@ -8,8 +8,8 @@
 4. Realtime Demonstration/Working: - live.py
 
 ## How to use:
-Step 1: - To run the model, just download: 'live.py' and 'Model' (Make sure they are in the same directory)
-Step 2: - Install: 'opencv-python', 'tensorflow, 'numpy', 'pillow' and 'keras'.
-Step 3: - Write 'python live.py' in the terminal and after few seconds, a new python-camera window will open.
+Step 1: - To run the model, just download: 'live.py' and 'Model' (Make sure they are in the same directory)  
+Step 2: - Install: 'opencv-python', 'tensorflow, 'numpy', 'pillow' and 'keras'.  
+Step 3: - Write 'python live.py' in the terminal and after few seconds, a new python-camera window will open.  
 
 As soon as there is fire (Use significant amount of flame; It may or may not work for Matchstick flames) in front of the camera, the feed will turn black and white indicating that the model has detected that there is fire in the current frame.
