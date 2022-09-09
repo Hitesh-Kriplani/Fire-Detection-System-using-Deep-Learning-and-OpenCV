@@ -12,7 +12,7 @@ while True:
         img_array = image.img_to_array(im)
         img_array = np.expand_dims(img_array, axis=0) / 255
         probabilities = model.predict(img_array)[0]
-        if probabilities[0] > 0.70:
+        if probabilities[0] > 0.90:
                 frame = cv2.cvtColor(frame, cv2.COLOR_RGB2GRAY)
                 print(probabilities[0])
         cv2.imshow("Capturing", frame)
